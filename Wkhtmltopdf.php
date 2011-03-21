@@ -168,7 +168,7 @@ class Wkhtmltopdf
      *
      * @author aur1mas <aur1mas@devnet.lt>
      * @param string $html
-     * @return Core_Wkthmltopdf
+     * @return Wkhtmltopdf
      */
     public function setHtml($html)
     {
@@ -193,7 +193,7 @@ class Wkhtmltopdf
      * @author aur1mas <aur1mas@devnet.lt>
      * @throws Exception
      * @param string $path
-     * @return Core_Wkthmltopdf
+     * @return Wkhtmltopdf
      */
     public function setPath($path)
     {
@@ -220,7 +220,7 @@ class Wkhtmltopdf
      *
      * @author aur1mas <aur1mas@devnet.lt>
      * @param string $orientation
-     * @return Core_Wkthmltopdf
+     * @return Wkhtmltopdf
      */
     public function setOrientation($orientation)
     {
@@ -242,7 +242,7 @@ class Wkhtmltopdf
     /**
      * @author aur1mas <aur1mas@devnet.lt>
      * @param string $size
-     * @return Core_Wkthmltopdf
+     * @return Wkhtmltopdf
      */
     public function setPageSize($size)
     {
@@ -308,14 +308,14 @@ class Wkhtmltopdf
     		$this->_bin = (string)$path;
     	}
    	
-    	return Core_Wkthmltopdf;
+    	return Wkhtmltopdf;
     }
 
     /**
      * set number of copies
      * @author aur1mas <aur1mas@devnet.lt>
      * @param int $copies
-     * @return Core_Wkthmltopdf
+     * @return Wkhtmltopdf
      */
     public function setCopies($copies)
     {
@@ -338,7 +338,7 @@ class Wkhtmltopdf
      * whether to print in grayscale or not
      * @author aur1mas <aur1mas@devnet.lt>
      * @param boolean $mode
-     * @return Core_Wkthmltopdf
+     * @return Wkhtmltopdf
      */
     public function setGrayscale($mode)
     {
@@ -361,7 +361,7 @@ class Wkhtmltopdf
      * PDF title
      * @author aur1mas <aur1mas@devnet.lt>
      * @param string $title
-     * @return Core_Wkthmltopdf
+     * @return Wkhtmltopdf
      */
     public function setTitle($title)
     {
